@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F4F4F4;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.navibar {
+    margin-top: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 15px;
+    justify-content: space-between;
+}
+.opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.opt p {
+    padding-right: 40px;
+    color: #999;
+    font-size: 18px;
+}
+.opt p:hover {
+    color: burlywood;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.result p{
+    color: #999;
+    font-size: 20px;
+}
+.product {
+    padding: 25px;
+    background-color: white;
+}
+.product h3{
+    color: #434343;
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-align: center;
+
+}
+.products {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+i {
+    margin-right: 5px;
+}
+.actions {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-heart {
+    margin-left: 20px;
+}
+.fa-cart-shopping {
+    margin-right: 20px;
+}
+.stars i{
+    font-size: 14px;
+    color: #c87065;
+}
+.actions i:hover {
+    color:#c8a165;
+    transition: 0.3s;
+    cursor: pointer;
+}
+h3:hover {
+    color:#c8a165;
+    transition: 0.3s;
+    cursor: pointer;
+}
